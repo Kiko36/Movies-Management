@@ -18,7 +18,7 @@ function SubscriptionsWatched(props) {
 
         getSubs(props.memberId)
 
-    }, [props.movieId])
+    }, [props.memberId])
     let items = []
     subs.forEach((sub) => sub.movies.forEach((movie, index) =>
         items.push(<li key={index}><Link to={`/M/movies?movieName=${movie.name}`}>{movie.name}</Link>,
