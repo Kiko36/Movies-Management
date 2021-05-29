@@ -1,0 +1,46 @@
+@import "https://fonts.googleapis.com/css?family=Lily+Script+One";
+.goof {
+  font-family: "Lily Script One";
+}
+
+.card {
+  margin-top: 10%;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  background: radial-gradient(#f5f7f8, #088dda, #032f49);
+  perspective: 500px;
+}
+
+.content {
+  font-size: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.back {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  background: radial-gradient (#e1ecf1, #088dda, #01141f);
+}
+
+.card:hover .content {
+  align-items: center;
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.add {
+  background: radial-gradient(#f5f7f8, #088dda, #032f49);
+}
+
+.front {
+  background: radial-gradient(#f5f7f8, #0b1114, #088dda, #032f49);
+  color: rgb(233, 173, 104);
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}

@@ -1,0 +1,9 @@
+client/node_modoules/**
+CinemaServer/node_modoules/**
+SubscriptionServer/node_modoules/**
+
+client/build
+CinemaServer/build
+SubscriptionServer/build
+
+.vscode
